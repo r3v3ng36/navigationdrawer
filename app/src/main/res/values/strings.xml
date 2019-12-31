@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Focus Point</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Loginusername">User Name</string>
+    <string name="Loginuserpass">User Password</string>
+    <string name="btnlogin">Login</string>
+    <string name="checkcourse">Check Upcoming Courses</string>
+    <string name="view_notification">View All Notification</string>
+
+    <string name="contactus">Contact Us Now</string>
+    <string name="imgphone">Image Phone</string>
+    <string name="imgwhats">Image Whatsapp</string>
+    <string name="title_activity_nologinactivity">nologinactivity</string>
+
+    <string name="title_activity_main2">Home</string>
+    <string name="coursetitle">Course Name</string>
+    <string name="courseprice">70$</string>
+    <string name="btncard">View</string>
+    <string name="tab1">Tab1</string>
+    <string name="title_activity_tab1">TabActivity1</string>
+    <string name="title_activity_test_tab">TestTabActivity</string>
+
+    <!--TabActivity-->
+    <string name="title_shop">Shop</string>
+    <string name="title_gifts">Gifts</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_test_activity">test_activity</string>
+
+    <!--Rules and Regulation-->
+    <string name="rule1">Regulatory in classes is mandatory, as cover-up classes cannot be arranged.</string>
+    <string name="rule2">Un-informed and frequent absences from classes will not entitle students to receive notes/handouts provided in classes missed and can also lead to penalization.</string>
+    <string name="rule3">Tuition fee for the registered courses shall be paid within due time period to validate the registration. After payment, fee will not be refunded irrespective of any reasons.</string>
+    <string name="rule4">If the fees is not paid, within the prescribed time,the registration of the course(s) shall stand cancelled.</string>
+    <string name="rule5">A student entered for a course or courses is expected to attend all the lectures, classes and all other requirements given in each course for which he/she is registered. There shall be no relaxation in attendance requirement under any circumstances.</string>
+    <string name="rule6">In case the students remain absent from the class for ten consecutive days without leave, his/her name shall be removed from the register.</string>
+    <string name="rule7">The student will have to pay due to respect to the teachers/staff and fellow students of the center.</string>
+
+    <!--Settings-->
+    <string name="mobilenotification">Mobile Notification</string>
+    <string name="notifydevice">Notify on this device</string>
+    <string name="Sound">Sound</string>
+
+    <string name="title_home">Mobile Notification</string>
+    <string name="title_account">Notify on this device</string>
+    <string name="title_notifications">Sound</string>
+    <string name="title_dashboard">Mobile Notification</string>
+    <string name="tab_two">Mobile Notification</string>
+    <string name="tab_three">Mobile Notification</string>
+
+    Download Attendance Sheet
+    <string name="resultfound">2 Results Found</string>
+    <string name="downloadsheet">Download Attendance Sheet</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+
+    <string name="rules"> 1) Regularity in classes is mandatory, as cover-up classes cannot be arranged.
+        \n \n 2) If for any genuine reason (illness etc.) a student has to miss 3 classes consecutively;
+        he/she must inform the FP management beforehand, so that handouts/notes can be kept aside, and course teacher could be informed.
+        \n\n 3) Un-informed and frequent absences from classes will not entitle students to receive notes/handouts provided in classes
+        missed and can also lead to penalization. \n \n
+        4) Tuition fee for the registered courses shall be paid within due time period to validate the registration.
+        After payment, fee will not be refunded irrespective of any reasons.
+      \n  \n 5) If the fee is not paid, within the prescribed time, the registration of the course(s) shall stand cancelled.
+       \n \n 6) student entered for a course or courses is expected to attend all lectures, classes and all
+        other requirements given in each course for which he/she is registered.There shall be no relaxation in attendance
+        requirement under any circumstances. \n \n
+        7) In case the students remain absent from the class for ten consecutive days without leave,
+        his/her name shall be removed from the register. \n \n
+        8) The student will have to pay due respect to the teachers/staff and fellow students of the centre.
+        In case of defaulter, admission will be cancelled and fee will not be refunded. \n \n
+        9) Students are allowed to enter our premises as per schedule of their classes.Discipline and ethical conduct
+        is expected from students within the building premises and while using elevators. \n \n
+        10) In case of any damage or loss the student concerned will be responsible for the payment of the damaged
+        items according to the market price plus fine to be decided by concerned Management. \n \n
+        11) The students are not allowed to participate in politics, misconduct and illegal activities. \n \n
+        12) The students should have the habit of seeing the notice board (STEP) regularly.\n \n
+        13) Possession, carrying or use of any type of weapons, is strictly prohibited in our premises.\n \n
+        14) Students are permitted to freeze their course, due to any circumstances, by providing a written or virtual application
+        on the prescribed form, within two weeks of commencing of class or within one week of announcing of result (ICAP).
+        However, fee of such student will not be refunded. Students have to resume their studies in the following semester and students
+        will be entitled to pay the difference of the current and previous semester fee (in which he/she was enrolled at the time of freezing)
+        if any, otherwise their names will be struck off from the roll of such course. \n \n
+        15) In case of transferring of fee to any other course or to any other student,
+        Fee of Rs 3000 will be charged extra at the time of transferring plus difference between current
+        and previous session fee (in which student was enrolled), if any \n \n
+        16) All lectures consisting of video, audio and pics of board be it online
+        or physical are the intellectual property of FOCUS POINT and are covered under copyrights laws of Pakistan.
+        Not a single student has any right legally to share any lectures in any form without prior permission from management
+        of FOCUS POINT to any third party who is or not a student of FOCUS POINT. If any student found guilty of violating this rule,
+        FOCUS POINT management reserves right to dismiss student from institute with immediate effect.\n \n
+        17) Food and drinks are not allowed in the lecture rooms, and offices.\n \n
+        18) We are not responsible for any students belongings (i.e. mobile, jewelry, books, stationery, etc.) if they get stolen, lost or damaged.
+        Please, take care of your things while within campus. \n \n
+        19) We aim to ensure that the building and premises, is clean and safe, and in good repair.
+        We expect cordial and disciplinary behaviour from your side within this campus and the building premises in general.
+        Silence shall be observed while inside the building. In case of any complaint, disciplinary action will be taken. \n \n
+        20) Class timings or schedule will be decided with a mutual agreement between student and the course teacher.
+        Once the schedule is decided, changes or variations on student request will not be entertained.
+        Moreover, we will not take responsibility of time clashes with any other institution. \n  \n
+        21) No political or non-political situation can influence the decision taken by the academy.
+        Every decision taken by the academy go through the rigorous procedure defined by the committee of the academy.
+        Every rule and decision is final and irrevocable.\n \n
+        22) In case of writing skills course(ICAP), please note that FOCUS POINT provides preparatory guidance to students to enable them to improve their writing skills. Neither is it a registered tuition provider of ICAP nor will it provide any student with a letter or certificate to validate his/her PCSC eligibility."</string>
+    <string name="title_activity_task_management">task_management</string>
+    <string name="visitor">visitor</string>
+    <string name="zm_mm_lbl_delete_system_notification">visitor</string>
+    <string name="zm_mi_play_enter_exit_chime">visitor</string>
+    <string name="zm_download_failed">visitor</string>
+    <string name="zm_system_notification_title">visitor</string>
+</resources>

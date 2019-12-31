@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/splashscreen"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <LinearLayout
+            android:weightSum="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:layout_weight="0.4"
+                android:id="@+id/tv_notification"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+                android:text="Notification"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <TextView
+                android:layout_weight="0.6"
+                android:id="@+id/tv_time"
+                android:textSize="13sp"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

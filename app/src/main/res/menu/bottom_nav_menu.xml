@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_completed"
+        android:icon="@drawable/ic_check_black_24dp"
+        android:title="Completed Task" />
+
+    <item
+        android:id="@+id/navigation_inprocess"
+        android:icon="@drawable/ic_process_black_24dp"
+        android:title="In Process" />
+
+    <item
+        android:id="@+id/navigation_inpending"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        android:title="Pending" />
+    <item
+        android:id="@+id/navigation_calendar"
+        android:icon="@drawable/ic_date_range_black_24dp"
+        android:title="Calendar" />
+
+
+</menu>

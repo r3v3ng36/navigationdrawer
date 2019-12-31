@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <ScrollView
+        android:background="@color/grey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="15dp"
+                    app:civ_border_color="@color/black"
+                    android:layout_gravity="center"
+                    android:src="@drawable/onimage"
+                    android:padding="5dp"/>
+                <TextView
+
+                    android:id="@+id/txt_std_id"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Std ID: 14 12"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+
+                    android:id="@+id/User_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="User Name"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/grey"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:textSize="15sp"
+
+                        android:layout_margin="10dp"
+                        android:text="Email:"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/email"
+                        android:layout_margin="10dp"
+                        android:textSize="15sp"
+                        android:gravity="end"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_toRightOf="@+id/tv1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:textSize="15sp"
+
+                        android:layout_margin="10dp"
+                        android:text="Qualification:"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/qualification"
+                        android:layout_margin="10dp"
+                        android:textSize="15sp"
+                        android:gravity="end"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_toRightOf="@+id/tv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:textSize="18sp"
+
+                        android:layout_margin="10dp"
+                        android:text="Gender:"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/gender"
+                        android:layout_margin="10dp"
+                        android:textSize="18sp"
+
+                        android:gravity="end"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_toRightOf="@+id/tv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:weightSum="3"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:text="Days"
+                        android:layout_weight="1"
+                        android:id="@+id/tv_day"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:layout_weight="1"
+                        android:id="@+id/tv_checkin"
+                        android:textSize="15sp"
+                        android:gravity="center"
+
+                        android:text="CheckIn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:layout_weight="1"
+                        android:id="@+id/tv_check_out"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:text="CheckOut"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/rv_days"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

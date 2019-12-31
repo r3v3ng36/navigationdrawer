@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="@drawable/view_back"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    app:srcCompat="@drawable/task_status" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date : "
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="08-05-2019"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    app:srcCompat="@drawable/task_date" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status : "
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_assign_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    app:srcCompat="@drawable/task_date" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Employee : "
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salman Nadeem"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    app:srcCompat="@drawable/task_status" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completion Date : "
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tv_completion_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="19-05-2019"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    app:srcCompat="@drawable/task_detail" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Task Detail : "
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/tv_employee"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum dolor sit amet"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

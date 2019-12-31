@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5">
+
+    <RelativeLayout
+        android:background="@drawable/course_single_row_back"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:gravity="center_vertical"
+
+            android:id="@+id/course_name"
+            android:textSize="16sp"
+            android:layout_toLeftOf="@id/btnview"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/course_price"
+            android:layout_margin="3dp"
+            android:text="@string/coursetitle" />
+
+
+
+
+        <TextView
+
+           android:layout_alignParentBottom="true"
+            android:id="@+id/course_price"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/courseprice" />
+
+        <Button
+            android:id="@+id/btnview"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/btncard"
+
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

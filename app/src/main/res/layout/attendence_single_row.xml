@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:background="@drawable/view_back"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:layout_width="35dp"
+                android:text="S.no"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_height="match_parent" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:hint="Check In"
+                    android:id="@+id/attendencecheckin"
+                    android:textSize="13sp"
+
+                    android:focusable="false"
+                    android:editable="false"
+                    android:textColor="@color/black"
+                    android:layout_height="match_parent" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:hint="Check out"
+                    android:id="@+id/attendencecheckout"
+
+
+                    android:textSize="13sp"
+                    android:focusable="false"
+                    android:editable="false"                    android:textColor="@color/black"
+                    android:layout_height="match_parent" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:layout_width="35dp"
+                android:text="S.no"
+                android:id="@+id/sno"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_height="match_parent" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:hint="On Time"
+
+                    android:id="@+id/attendencecheckontime"
+                    android:textSize="13sp"
+                    android:focusable="false"
+                    android:editable="false"
+                    android:textColor="@color/black"
+                    android:layout_height="match_parent" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:hint="Off Time"
+
+                    android:id="@+id/attendencecheckofftime"
+                    android:textSize="13sp"
+                    android:focusable="false"
+                    android:editable="false"
+                    android:textColor="@color/black"
+                    android:layout_height="match_parent" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="80dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/attendencedate"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:text="Date"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

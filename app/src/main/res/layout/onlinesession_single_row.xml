@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="402dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/view_back"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="Cost Accounting"
+                    android:textSize="24sp"
+                    android:weightSum="2" />
+
+
+                <!--                <com.google.android.material.textfield.TextInputLayout-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_weight="1"-->
+                <!--                    android:layout_height="match_parent">-->
+
+                <!--                    <com.google.android.material.textfield.TextInputEditText-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:hint="Check In"-->
+                <!--                        android:id="@+id/attendencecheckin"-->
+                <!--                        android:textSize="13sp"-->
+
+                <!--                        android:focusable="false"-->
+                <!--                        android:editable="false"-->
+                <!--                        android:textColor="@color/black"-->
+                <!--                        android:layout_height="match_parent" />-->
+
+                <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+                <!--                <com.google.android.material.textfield.TextInputLayout-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_weight="1"-->
+                <!--                    android:layout_height="match_parent">-->
+
+                <!--                    <com.google.android.material.textfield.TextInputEditText-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:hint="Check out"-->
+                <!--                        android:id="@+id/attendencecheckout"-->
+
+
+                <!--                        android:textSize="13sp"-->
+                <!--                        android:focusable="false"-->
+                <!--                        android:editable="false"                    android:textColor="@color/black"-->
+                <!--                        android:layout_height="match_parent" />-->
+
+                <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="12sp"
+                    android:layout_height="12sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginVertical="15sp"
+                    android:layout_marginStart="15sp"
+                    android:src="@drawable/calendar"
+
+                    />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginVertical="12sp"
+                    android:layout_marginStart="5sp"
+                    android:text="DATE"
+                    android:textSize="14sp"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2"
+
+                >
+
+                <ImageView
+                    android:layout_width="12sp"
+                    android:layout_height="12sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginVertical="15sp"
+                    android:layout_marginStart="15sp"
+                    android:src="@drawable/check_in" />
+
+                <TextView
+                    android:id="@+id/checkOut"
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginVertical="12sp"
+                    android:layout_marginStart="5sp"
+                    android:text="checkOut"
+                    android:textSize="14sp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="12sp"
+                    android:layout_height="12sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginVertical="15sp"
+                    android:layout_marginStart="15sp"
+                    android:src="@drawable/in_time"
+
+                    />
+
+                <TextView
+                    android:id="@+id/checkIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginVertical="12sp"
+                    android:layout_marginStart="5sp"
+                    android:text="checkOut"
+                    android:textSize="14sp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/copyimage"
+                    android:layout_width="12sp"
+                    android:layout_height="12sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginVertical="15sp"
+                    android:layout_marginStart="15sp"
+
+                    android:src="@drawable/copy_icon" />
+
+                <TextView
+                    android:id="@+id/videolink"
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginVertical="12sp"
+                    android:layout_marginStart="5sp"
+                    android:text="Video link"
+                    android:textSize="14sp"
+
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/attendencedate"-->
+            <!--                android:textColor="@color/black"-->
+            <!--                android:textSize="13sp"-->
+            <!--                android:gravity="center"-->
+            <!--                android:text="Date"-->
+
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent" />-->
+            <Button
+                android:id="@+id/start_btn"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_margin="5dp"
+                android:layout_weight="0"
+                android:background="@drawable/buttonview"
+                android:gravity="center"
+                android:text="Emergency Link"
+                android:textColor="#fff"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/invitation_btn"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttonview"
+                android:gravity="center"
+                android:text="Regular Link"
+                android:textColor="#fff"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

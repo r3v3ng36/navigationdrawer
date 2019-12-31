@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".coursedetail">
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/header"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="52dp">
+
+    <ImageView
+    android:src="@drawable/back"
+    android:layout_marginLeft="10dp"
+    android:layout_centerVertical="true"
+    android:id="@+id/iv_back"
+    android:layout_width="30dp"
+
+    android:layout_height="30dp" />
+
+    <TextView
+    android:layout_marginLeft="20dp"
+    android:layout_toRightOf="@id/iv_back"
+    android:layout_centerVertical="true"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:textColor="#ffffff"
+    android:text="Course Details"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_below="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/list_image"
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/coursedetail_icon"
+                    android:contentDescription="@string/app_name" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+
+                    <TextView
+                        android:layout_above="@+id/v1"
+                        android:id="@+id/tvCity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Course Details"
+
+                        android:textColor="#282828"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+
+                    <View
+                        android:id="@+id/v1"
+                        android:layout_centerInParent="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"/>
+
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@+id/v1"
+
+                        android:id="@+id/tv_course_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        android:text=""/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/thumbnail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/list_image1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/teacher_icon"
+                    android:contentDescription="@string/app_name" />
+
+                <!-- City-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_above="@id/v2"
+
+                        android:id="@+id/tvCity1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Teacher"
+                        android:textColor="#282828"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/v2"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+
+                        android:id="@+id/tv_teacher"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/v2"
+                        android:textColor="@color/colorPrimary"
+                        android:text=""
+                        android:textSize="15sp"
+                        tools:ignore="RtlSymmetry" />
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+                <!-- Weather Information-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/thumbnail2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/list_image2"
+                    android:layout_width="60dip"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="60dip"
+                    android:background="@drawable/duration_icon"
+                    android:contentDescription="@string/app_name" />
+
+                <!-- City-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:id="@+id/tvCity2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/v3"
+                        android:text="Duration"
+                        android:textColor="#282828"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+
+                    <View
+                        android:id="@+id/v3"
+                        android:layout_centerInParent="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"/>
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+
+                        android:id="@+id/tv_duration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        android:layout_below="@+id/v3"
+                        />
+
+                </RelativeLayout>
+
+
+
+
+
+
+                <!-- Weather Information-->
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/thumbnail3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/list_image3"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:background="@drawable/fees_icon"
+                    android:contentDescription="@string/app_name" />
+
+                <!-- City-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_above="@+id/v4"
+                        android:layout_marginTop="9dp"
+
+                        android:id="@+id/tvCity3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fees"
+                        android:textColor="#282828"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/v4"
+                        android:layout_centerInParent="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"/>
+
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+
+                        android:id="@+id/tv_fees"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:layout_below="@id/v4"/>
+
+
+                </RelativeLayout>
+
+
+
+
+                <!-- Weather Information-->
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/thumbnail4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/list_image4"
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/checkinout_icon"
+
+                    android:contentDescription="@string/app_name" />
+
+                <!-- City-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:id="@+id/tvCity4"
+                        android:layout_above="@+id/v5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Check-In/Check-Out"
+                        android:textColor="#282828"
+                        android:textSize="15sp"
+                        android:textStyle="bold"/>
+
+                    <View
+                        android:id="@+id/v5"
+                        android:layout_centerInParent="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"/>
+
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+
+                        android:id="@+id/tv_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/v5"
+                        android:text=""
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        tools:ignore="RtlSymmetry" />
+
+                </RelativeLayout>
+
+
+
+
+                <!-- Weather Information-->
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Course Details"
+        android:textColor="@color/colorPrimary"
+        android:textSize="28sp" />
+    <!--<Button-->
+        <!--android:id="@+id/btn_download"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:text="Download Registered Invoice"/>-->
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/icon_dashboard"
+        android:title="Courses" />
+
+    <item
+        android:id="@+id/nav_favorites"
+        android:icon="@drawable/icon_email"
+        android:title="Notices" />
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/icon_notification"
+        android:title="Notifications" />
+    <item
+        android:id="@+id/nav_custom"
+        android:icon="@drawable/icon_person"
+        android:title="Account" />
+
+</menu>
